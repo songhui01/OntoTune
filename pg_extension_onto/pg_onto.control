@@ -1,0 +1,3 @@
+comment = 'PostgreSQL ONTO Prototype, adapted from Bao implementation (https://github.com/learnedsystems/BaoForPostgreSQL) to provide functions such as using hooks to transfer data to the learning server'
+default_version = '0.0.1'
+relocatable = true

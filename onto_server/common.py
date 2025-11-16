@@ -1,0 +1,3 @@
+
+class OntoException(Exception):
+    pass

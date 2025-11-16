@@ -26,6 +26,28 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+*~
+*.bc
+*.o
+*.so
+*\#*
+.clangd
+.ipynb*
+# Byte-compiled / cache files
+onto_server/__pycache__/
+
+# Log files
+onto_server/log/
+onto_server/onto_server.log
+
+# Local database file
+onto_server/onto.db
+
+# Python virtual environment
+ontoenv/
+onto_server/onto_default_model/
+onto_server/onto_logs/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
