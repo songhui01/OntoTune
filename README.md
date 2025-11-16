@@ -1,4 +1,4 @@
-#OntoTune
+# OntoTune
 OntoTune for query optimization is a prototype platform for applying ontologized concepts and relationships in the query optimization study through the query hints selection. For more information about OntoTune, refer to the paper (https://arxiv.org/pdf/2511.06780). The platform is built based on the work of Bao's workflow(https://rm.cab/bao), and we added the artifacts of extracting the metadata info from the PG extension that reflects the ontology relationships of the query, GUC, and the database statistics. 
 
 The purpose of this platform is to provide the basic structures for ontology information, and thus promotes the explanability and more in the next phase. As part of work in progress, we are also exploring the use of ontology-based embedded features for machine learning to better serve the purpose of query optimization, as we consider this to be a worthwhile exploration direction.
@@ -6,6 +6,8 @@ The purpose of this platform is to provide the basic structures for ontology inf
 A tutorial to run this platform is available as follows.
 
 ## Install PG12 if it is not available in the environment.
+* An so_pg PostgreSQL archive and related scripts of so_queries can be downloaded from "https://rmarcus.info/stack.html"
+
 ## Make the Python virtual environment:
 * sudo apt update
 * sudo apt-get install -y python3-venv
